@@ -1,0 +1,37 @@
+Comandos:
+cd
+Dir
+Mkdir
+Del
+Rmdir
+Comentário: Remove totalmente o repositorio  C:\>rmdir workspace /S /Q
+Cls
+Echo
+Ls
+Mv = mover
+git config --list
+git config --global --unset user.email
+
+Abaixo se colocar echo o nome da pasta e o sinal de maior que e o nome do documento ele cria 
+C:\workspace>echo hello > hello.txt
+
+
+openssl sha1 texto.txt
+
+
+Git status
+Git init
+Git add * ou git add nome do arquivo ou git add.
+Git commit  -m "commit inicial"
+ git push origin master
+Git status
+
+
+Commit normal
+Git status
+Git add *
+Git commit  -m "commit inicial"
+git push origin master
+
+
+Git clone + url no git hub
