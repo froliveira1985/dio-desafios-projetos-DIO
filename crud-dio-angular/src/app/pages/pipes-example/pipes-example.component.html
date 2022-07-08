@@ -1,0 +1,51 @@
+<div class="form-group">
+    <label for="number">Number:</label>
+    <input type="text" [(ngModel)]='number' class="form-control" id="number">
+    <p>{{ number }}</p>
+    <button class="btn btn-success" (click)="mudaValor()">Click</button>
+</div>
+
+<div class="">
+    <!-- <p>SLICE {{ text | slice:3:8 }}</p> -->
+
+    <p>sem formatacao</p>
+    <p>{{ number | number }}</p>
+
+    <p>Resultado com formatacao</p>
+    <p>{{ number | number: '2.0-1': 'pt' }}</p>
+
+    <p>Resultado em moeda</p>
+    <p>{{ number | currency: 'BRL' }}</p>
+
+    <p>Resultado em porcetagem</p>
+    <p>{{ number | percent }}</p>
+
+    <p>Data de Hoje</p>
+    <p>{{ date }}</p>
+    <p> DATA FORMATADA: {{ date | date: 'dd/MMM/yyyy'| uppercase}}</p>
+
+    <p>Meu novo texto: {{ text | uppercase }}</p> 
+
+    <p>{{ pessoa | json}}</p>
+
+    <p>{{ text | titlecase }}</p>
+
+</div>
+
+<div class="container">
+    <div class="col ">
+        <div class="row-6">
+            <div class="form-group">
+                <label for="text">Print Pipe Test:</label>
+                <input type="text" name="text" id="text" #nome>
+                <button class="btn btn-primary" (click)="add(nome.value)">add</button>
+            </div>    
+        </div>
+        <div class="row-6">
+            <h3>Lista formatada</h3>
+            <p>Tamanho da lista {{ nomes.length }}</p>
+            <p>{{ nomes | printList }}</p>
+        </div>
+    </div>
+
+</div>
