@@ -2,10 +2,6 @@ package br.com;
 
 import lombok.*;
 
-/**
- *
- * @author vinivilasboas
- */
 
 @NoArgsConstructor @AllArgsConstructor
 @ToString
