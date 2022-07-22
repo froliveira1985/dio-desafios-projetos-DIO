@@ -1,9 +1,5 @@
 package br.com;
 
-/**
- *
- * @author vinivilasboas
- */
 
 public class Banco {
 

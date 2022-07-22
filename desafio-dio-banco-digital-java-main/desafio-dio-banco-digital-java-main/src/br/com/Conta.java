@@ -3,10 +3,7 @@ package br.com;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- *
- * @author vinivilasboas
- */
+
 
 @Getter @Setter
 

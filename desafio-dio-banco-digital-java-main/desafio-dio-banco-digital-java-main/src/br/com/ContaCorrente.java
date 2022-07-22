@@ -1,9 +1,6 @@
 package br.com;
 
-/**
- *
- * @author vinivilasboas
- */
+
 
 public class ContaCorrente extends Conta {
 
